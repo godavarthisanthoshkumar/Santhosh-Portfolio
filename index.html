@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santhosh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/464779470d.js" crossorigin="anonymous"></script>
+</head>
+
+<!-----------video---------->
+<div class="container">
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="images/5495784-uhd_2560_1080_30fps.mp4" type="video/mp4">
+    </video>
+</div>
+
+
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="'logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Internship">Internship</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>Hi, I'm <span>Santhosh Kumar</span><br>From Hyderabad</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-----------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><span> • I am a recent B.Tech graduate in Computer Science and Engineering from Dr. MGR Educational and Research Institute, with a commendable CGPA of 8.39. I have a strong grasp of emerging technologies and a keen interest in innovation.</span><br><span>• During my internship at Reliance Jio Platforms, I had the opportunity to enhance my expertise in both frontend and backend development. I honed my skills in Python, Node.js, React.js, HTML, and CSS while working on a significant project.</span><br><span> • My career objective is to utilize my academic foundation and internship experience to contribute to innovation and advancement in full-stack development. With strong communication, collaboration, and problem-solving skills refined through both academic and professional experiences, I excel in dynamic environments that value teamwork and creativity.</span><br><span> • As a full-stack developer, I am passionate about the challenges of both frontend and backend development. I find great fulfillment in crafting seamless, impactful user experiences while exploring the complexities.</span><br><span>• I am eager to leverage my skills and expertise to contribute to your team's success and bring your vision to reality. Thank you for visiting my portfolio!</span><br><span> • I’m excited about the opportunity to join your team and contribute to your company’s success. Let’s connect and explore how we can create remarkable outcomes together.</span><br><span> • Feel free to reach out using the contact information provided below — I look forward to hearing from you!</span>                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Full Stack Developer</span><br>FrontEnd Developer / BackEnd Developer</li>
+                            <li><span>FrontEnd Developer</span><br> Html , Css , JavaScript</li>
+                            <li><span>BackEnd Developer</span><br>Python,Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>January - May , 2024</span><br>Internship at Reliance Jio Platforms(RJP)</li>
+                            <li><span>June - July , 2023</span><br>Internship at CodeClause</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>Dr.Mgr Educational And Research Institute , Chennai</li>
+                            <li><span>2018-2020</span><br>Vignan Co-operative Junior Collage , Vadlamudi , Guntur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Projects------------------>
+    <div id="Projects"></div>
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Trash can! Artificial Intelligence System For Effective Automatic Classification Of Waste</h2>
+                <p>This project presents an innovative solution for efficient waste segregation and bin rotation whithin a two-tier model,leveraging the power of Embedded systems, Natural Language Processing (NLP) , and advances sensors. The system utilizes
+                    an Arduino UNO R3 microcontroller as its core component and integrates mental proximity sensors, colour sensors, and UV sensors to identify and classify waste items.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Saml Authentication</h2>
+                <p>We implemented SAML integration in a Node.js and React.js web application, enabling authentication through a SAML-based Identity Provider. This integration allowed users to log in once and gain access to multiple systems and applications
+                    without the need for repeated authentication. The project involved developing a module to transmit SAML authentication requests and handle SAML responses from Oracle Access Manager (OAM). Additionally, the module was designed to extract
+                    and verify user attributes from SAML responses, significantly boosting application security.</p>
+                <a href="#"></a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>web Development </h2>
+                <p>
+                    I created an e-commerce website using front-end technologies like HTML, CSS, and JavaScript. The website includes features such as user authentication, product listing, and a shopping cart, with a strong focus on functionality and user experience..</p>
+                <a href="#"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Internship-------------->
+
+    <div id="Internship"></div>
+    <div class="container">
+        <h1 class="sub-title">Internship</h1>
+        <div class="Internship-list">
+            <div>
+                <br>
+                <h2>Reliance Jio Platforms , Mumbai </h2>
+                <h2> January 2024 - May 2024 </h2>
+                <h3>Saml Authentication</h3>
+                <p> <i class="fa-solid fa-arrow-right"></i> <span>We implemented SAML integration in a Node.js and React.js web application, enabling authentication through a SAML-based Identity Provider. This integration allowed users to log in once
+                    and gain access to multiple systems and applications without the need for repeated authentication.</span><br><span><i class="fa-solid fa-arrow-right"></i> The project involved developing a module to transmit SAML authentication requests and handle SAML responses from Oracle
+                        Access Manager (OAM). Additionally, the module was designed to extract and verify user attributes from SAML responses, significantly boosting application security.</span></p>
+                <a href="#"></a>
+            </div>
+            <br>
+            <br>
+            <div>
+                <h2>CodeClause</h2>
+                <h2> June 2023 - July 2023 </h2>
+                <h3>Python Developer</h3>
+                <p><span><i class="fa-solid fa-arrow-right"></i> We have worked on two projects: a URL Shortener and an Alarm Clock with a Graphical User Interface (GUI). In the URL Shortener project, we utilized TinyURL services and the pyshorteners library to shorten URLs.</span><br><span><i class="fa-solid fa-arrow-right"></i> For the Alarm Clock project,
+                    we built the interface using the tkinter library, managed time with the datetime module, handled time-related functions using the time module, and used the winsound module to play the alarm sound.</span> </p>
+                <a href="#"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-------------Skills-------->
+    <div id="Skills">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="Skills-list">
+                <div class="Skills">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>FrontEnd Developer</h3>
+                        <p>Html , Css , Javascript </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Skills">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>BackEnd Developer</h3>
+                        <p>Python , Java</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="Skills">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>DataBase</h3>
+                        <p> Sql , MongoDb</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!------------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>godavarthisanthoshkumar1234567@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/santhosh-kumar-godavarthi-ba12ba22a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/godavarthisanthoshkumar"><i class="fa-brands fa-github"></i></a>
+                        <a href="godavarthisanthoshkumar1234567@gmail.com" target="_blank"><i class=" fa-regular fa-envelope "></i></a>
+                        <a href="Exciting Update: Video Coming Soon! Stay Tuned!"><i class="fa-solid fa-clapperboard"></i></a>
+                    </div>
+                    <a href="resume/Santhosh_Resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messgae"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <!-- Arrow Up Icon -->
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> © Copyright 2025 Santhosh Kumar Godavarthi , All rights reserved
+                </> </p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+
+    <script>
+        var sidemeu = doc.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwkbJrpaPQtFSEB-JA7Vgzs4Cx3k4J1LKMDtMaHLogdM9rIF5cCuog62ruRhEl1d2LE7w/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent sucessfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
